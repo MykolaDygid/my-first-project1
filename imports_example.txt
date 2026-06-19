@@ -1,0 +1,21 @@
+Приклади імпортів у Python
+1. Імпорт цілого модуля
+import math
+print(math.pi)
+2. Імпорт окремої функції
+from math import sqrt
+print(sqrt(25))
+3. Імпорт з псевдонімом
+import datetime as dt
+print(dt.datetime.now())
+4. Імпорт кількох функцій
+from random import randint, choice
+Робота з pip
+Встановлення пакета:
+pip install requests
+Оновлення пакета:
+pip install --upgrade requests
+Перегляд встановлених пакетів:
+pip list
+Видалення пакета:
+pip uninstall requests
